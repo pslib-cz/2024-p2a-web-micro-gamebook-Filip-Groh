@@ -61,6 +61,7 @@ body {
 
 .section--action {
     grid-area: action;
+    align-content: end;
 }
 
 .section--illustration {
@@ -83,6 +84,7 @@ body {
 
 .action {
     padding: 0;
+    /* Nahrazuje flex gap */
     margin-top: calc(-1 * var(--action__item-margin));
     margin-bottom: calc(-1 * var(--action__item-margin));
     list-style-type: none;
